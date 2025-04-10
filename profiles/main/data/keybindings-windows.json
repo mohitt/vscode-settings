@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+alt+f",
+        "command": "poor-mans-t-sql-formatter.formatSql",
+        "when": "editorLangId == sql && editorTextFocus"
+    },
+    {
+        "key": "escape",
+        "command":"workbench.action.focusActiveEditorGroup",
+        "when":"!editorTextFocus"
+    }, 
+]
